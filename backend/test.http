@@ -1,0 +1,13 @@
+# ### Generate flashcards
+# POST http://localhost:3000/generate
+# Content-Type: application/json
+
+# {
+#   "text": "Photosynthesis is the process by which plants convert sunlight into energy. It occurs in the chloroplasts and produces oxygen as a byproduct."
+# }
+
+# ### Get all flashcards
+# GET http://localhost:3000/flashcards
+
+# ### Delete a flashcard
+# DELETE http://localhost:3000/flashcards/6ae2ad43f51201f8b7110755
