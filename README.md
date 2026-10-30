@@ -31,3 +31,19 @@ A full-stack web application that uses AI to automatically generate study flashc
 ## Running Locally
 
 **Backend:**
+cd backend
+npm install
+npm start
+
+Create a `.env` file in the `backend` folder with:
+
+MONGO_URI=your_mongodb_connection_string
+GEMINI_API_KEY=your_gemini_api_key
+
+**Frontend:**
+
+cd frontend
+npm install
+npm run dev
+
+The backend runs on `http://localhost:3000` and the frontend on `http://localhost:5173`.
